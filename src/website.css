@@ -1,0 +1,52 @@
+
+
+
+.nav-item{
+font-size: 1.1rem;
+margin: 0 10px;
+margin-top: 10px;
+text-decoration: none;
+
+
+}
+@media (max-width:700px) {
+    .nav-item{
+        font-size: 1rem;
+        margin: 0 10px;
+        margin-top: 10px;
+        text-decoration: none;
+        
+        
+        }
+    
+}
+.nav-link{
+    color: rgb(55, 179, 127);
+}
+.nav-item:active{
+    color: red !important;
+    border-bottom: 1px solid red;
+}
+ label{
+    font-size: 1.1rem;
+}
+.card{
+    padding: 0px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.animated{
+    animation: kumar 1.4s alternate infinite;
+}
+@keyframes kumar {
+    0%{transform: translateY(10px);}
+    100%{transform: translateY(-10px);}
+    
+}
+.gall{
+    margin: 10px;
+}
